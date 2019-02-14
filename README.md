@@ -1,5 +1,4 @@
 # Git Class
-
 Welcome to my 'git_class' Repo! I originally threw it together to teach a  First Robotics Competition (FRC) team how to use Git (and by extension, Github). 
 
 Below are some useful command line instructions:
@@ -23,6 +22,7 @@ Below are some useful command line instructions:
 * `ls` list. List files within your current directory. (This can also be **DIR** in windows command prompts) 
 * `cat [FILE NAME]` concatenate. A fancy way to say 'read'. This will read the text of the **FILE** you designate.
 
+![](cli.gif)
 ## Interacting with the Remote Repository
 * `git fetch` pulls all available branches from the remote repo and saves them on your computer
    * `git fetch -p` Will both bring down all available branchs and will remove local copies of deleted branches.
@@ -46,6 +46,7 @@ git commit -m "I've made changes to some files you're not gonna believe!"
 * `git push origin HEAD` pushes the changes you've made locally to the remotely save version of your branch
 * `git pull origin [BRANCH]` will pull the remote **BRANCH** you request and attempt to merge it with the local version of the branch you're working in
 
+![](commitnpush.gif)
 ## Whoops
 * `git reset` will revert your files back to their last saved state. *THIS WILL NOT DELETE ANY ADDITIONS YOU'VE MADE!* Useful if you've deleted something you shouldn't've
 * `git reset --hard` will revert your branch to its exact last state. New files will be removed, deleted ones will be restored, and good/bad changes will completely disappear. **GIT EQUIVALENT OF A NUKE FROM ORBIT**
