@@ -1,6 +1,7 @@
-# Git Class for Beginners
+# Git Class
+Welcome to my 'git_class' Repo! I originally threw it together to teach a  First Robotics Competition (FRC) team how to use Git (and by extension, Github). 
 
-Welcome to team 5401's 'git_class' Repo! This Repo exists solely to teach good Git, GitHub, and Git workflow fundamentals. *It is currently not self-guided!* Below are some useful command line instructions:
+Below are some useful command line instructions:
 
 ## Basic Terminology
 
@@ -12,18 +13,19 @@ Welcome to team 5401's 'git_class' Repo! This Repo exists solely to teach good G
 * Push - Send code from your local computer to the remote repository
 * Pull - downloading code from the remote repository to your local system
 * Checkout - switch
+* Rebase - rebuild commits in a given branch onto a new starting point. Best used to give feature branches a common ancestor
 
 ## Basic Command Line (These Commands work for UNIX Command Line and Windows Command Line)
 * `pwd` print working directory. Shows which folder you're in.
 * `cd [PATH]` change directory. Change working directory to the designated **PATH**
     * `cd ..` will go UP one directory in the tree
-* `ls` list. List files within your current directory.
+* `ls` list. List files within your current directory. (This can also be **DIR** in windows command prompts) 
 * `cat [FILE NAME]` concatenate. A fancy way to say 'read'. This will read the text of the **FILE** you designate.
 
 ![](cli.gif)
 ## Interacting with the Remote Repository
 * `git fetch` pulls all available branches from the remote repo and saves them on your computer
-   * `git fetch --prune` Will both bring down all available branchs will removing local copies of deleted branches.
+   * `git fetch -p` Will both bring down all available branchs and will remove local copies of deleted branches.
 * `git pull origin [BRANCH NAME]` pulls a copy of the designated **BRANCH NAME** and attempts to merge it with the branch you are currently working in. 
     * `git pull origin HEAD` will merge the remote version of your *current* branch with the local version you're working in
 * `git clone [REPO ADDRESS]` downloads a repository to your machine. Best done when updating your STAGING and MASTER branches.
@@ -78,7 +80,7 @@ A       hello_world.rb
 The series of letters and numbers after 'commit' can be used to reset DIRECTLY to that state, for example:
 `git reset --hard 7de3ab656ee21ae12dab025e023905afc98a1ca5`
 
-Useful if a freshman does a LOT of bad code and we need to start over...
+Useful if a newbie does a LOT of bad code and we need to start over...
 
 
 Graduates
