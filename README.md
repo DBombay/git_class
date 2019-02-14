@@ -1,4 +1,4 @@
-# Git Class for FROGRAMMERS
+# Git Class for Beginners
 
 Welcome to team 5401's 'git_class' Repo! This Repo exists solely to teach good Git, GitHub, and Git workflow fundamentals. *It is currently not self-guided!* Below are some useful command line instructions:
 
@@ -19,6 +19,7 @@ Welcome to team 5401's 'git_class' Repo! This Repo exists solely to teach good G
     * `cd ..` will go UP one directory in the tree
 * `ls` list. List files within your current directory.
 * `cat [FILE NAME]` concatenate. A fancy way to say 'read'. This will read the text of the **FILE** you designate.
+
 ![](cli.gif)
 ## Interacting with the Remote Repository
 * `git fetch` pulls all available branches from the remote repo and saves them on your computer
@@ -84,3 +85,4 @@ Graduates
 ==========
 * Devin
 * Kevin
+* David F.
