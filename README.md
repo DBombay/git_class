@@ -1,10 +1,17 @@
-# Git Class
+Git Class
+===
 Welcome to my 'git_class' Repo! I originally threw it together to teach a  First Robotics Competition (FRC) team how to use Git (and by extension, Github). 
 
-Below are some useful command line instructions:
+## Tools
+If you're using a **Windows** machine, download the following program: https://gitforwindows.org/
+  - We'll be using the 'Bash Emulator' from this package to mimic working on the command line
+
+For **Linux** machines, follow this guide: http://guides.beanstalkapp.com/version-control/git-on-linux.html
+
+For **OSX/Mac** users, here's a guide: https://www.atlassian.com/git/tutorials/install-git
 
 ## Basic Terminology
-
+* Command Line - The (typically) black screen/white text you see in the gifs below is refered to as the Command Line Interface.
 * Repository (repo) - a directory that manages saved versions of code for collaboration and display
 * Remote - the saved files for the code which are stored on GitHub
 * Local - your physical computer that you are currently working on
