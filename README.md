@@ -50,7 +50,9 @@ For **OSX/Mac** users, here's a guide: https://www.atlassian.com/git/tutorials/i
 ```unix
 git commit -m "I've made changes to some files you're not gonna believe!"
 ```
-* `git push origin HEAD` pushes the changes you've made locally to the remotely save version of your branch
+* `git push` pushes the changes you've made locally to the remotely save version of your branch
+    * The first time you do this on a branch, you'll need to tell git where you're sending your commits. You do this with the command: `git push --set-upstream [REPOSITORY ADDRESS].git`. E.g. `git push --set-upstream https://www.github.com/DBombay/git_class.git`
+    * After rebasing, you'll need to overwrite the remote copy of your branch with your local. To do so, you pass the `-f` argument to `git push` to *force* a push. e.g. `git push -f`
 * `git pull origin [BRANCH]` will pull the remote **BRANCH** you request and attempt to merge it with the local version of the branch you're working in
 
 ![](commitnpush.gif)
